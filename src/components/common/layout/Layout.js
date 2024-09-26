@@ -1,8 +1,8 @@
-// src/components/common/Layout.js
+
 import React from 'react';
 import Header from '../header/Header';
 import Sidebar from '../sidebar/SideBar';
-import './Layout.css'; // CSS file for layout styling
+import './Layout.css'; 
 
 const Layout = ({ children }) => {
     return (
