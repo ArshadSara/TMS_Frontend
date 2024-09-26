@@ -1,4 +1,4 @@
-// src/components/dashboard/Sidebar.js
+
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import { FaTachometerAlt, FaUser, FaCog, FaSignOutAlt } from 'react-icons/fa'; 
@@ -23,7 +23,7 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/home" className="nav-item active"> {/* Add active class for highlighting */}
+            <Link to="/home" className="nav-item active"> 
               <FaTachometerAlt className="icon" /> Dashboard
             </Link>
           </li>
@@ -32,7 +32,7 @@ const Sidebar = () => {
               <FaUser className="icon" /> Profile
             </Link>
           </li>
-          <li className="logout"> {/* Use a class for styling logout */}
+          <li className="logout"> 
             <Link onClick={(e) => handleLogOut(e)} className="nav-item">
               <FaSignOutAlt className="icon" /> Logout
             </Link>
