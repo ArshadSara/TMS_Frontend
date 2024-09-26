@@ -1,0 +1,47 @@
+.task-view-container {
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+}
+
+h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #2c3e50; 
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    font-weight: bold; 
+    color: #34495e; 
+}
+
+.form-group div {
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    background-color: #f9f9f9; 
+}
+
+.back-button {
+    display: block; 
+    margin: 20px auto 0; 
+    padding: 10px 20px; 
+    background-color: #2980b9; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.back-button:hover {
+    background-color: #1a66a4; 
+}
